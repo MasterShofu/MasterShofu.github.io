@@ -1,0 +1,45 @@
+#navpages li a, span{
+    color: white !important;
+}
+
+#gallerytabs nav button {
+    color: black;
+    font-family: TW Body;
+    font-size: x-large;
+}
+
+.bgimageart {
+    background: url('../Images/stilllife.png');
+    background-size: cover;
+}
+
+.webpagebg {
+    background: url("../Images/texturebg.jpg");
+    background-size: cover;
+    ;
+}
+
+@font-face{
+    font-family: Niagara;
+    src:url("../Fonts/NIAGSOL.TTF");
+}
+
+@font-face{
+    font-family: TW Body;
+    src: url("../Fonts/Tw-Cen-MT-Condensed-Font.ttf");
+}
+
+.headerFont {
+    font-family: Niagara;
+}
+
+.bodyFont {
+    font-family: TW Body;
+}
+
+.shadow {
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8) !important;
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8) !important;
+    box-shadow: 0px 6px 8px rgba(33, 33, 33, 0.564), inset 0 20px 20px -20px rgba(0,0,0,0.8) !important;
+}
+
