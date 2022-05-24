@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="Styles/bootstrap.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/all.css">
+</head>
+</head>
+
+<body>
+    <div class="container-fluid webpagebg" style="padding-right: 0; padding-left: 0">
+        <div class="row" style="line-height: 40px;">
+            <div class="container-fluid fixed-top">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2b2b2b;">
+                        <div class="container-fluid justify-content-center">
+                            <a class="navbar-brand headerFont fs-1" href="index.html">Nicholas</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="row shadow" style="background-color: #983737;">
+                    <ul id="navpages" class="nav justify-content-center bodyFont fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item" style="color: white;">
+                            <span class="nav-link">§</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item" style="color: white;">
+                            <span class="nav-link">§</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item" style="color: white;">
+                            <span class="nav-link">§</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row p-0" style="margin-top: 140px;">
+            <div class="col d-flex justify-content-center">
+                <h1 style="font-size: 150px; text-decoration: underline; text-decoration-thickness: 5px;"
+                    class=" headerFont p-0">Contact
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <ul style="text-align: center; line-height: 50px;" class="p-0">
+                <li class="headerFont"
+                    style="font-size: 60px; text-decoration: underline; text-decoration-thickness: 3px;">Email</li>
+                <li class="bodyFont mb-1" style="font-size: 30px;">falzonnicky@gmail.com</li>
+                <li class="headerFont"
+                    style="font-size: 60px; text-decoration: underline; text-decoration-thickness: 3px;">Phone</li>
+                <li class="bodyFont mb-1" style="font-size: 30px;">79083144</li>
+                <li class="headerFont"
+                    style="font-size: 60px; text-decoration: underline; text-decoration-thickness: 3px;">Social Media
+                </li>
+                <li>
+                    <ul id="profileIcons" style="padding-left: 0mm !important;">
+                        <li>
+                            <a href=""> <i class="fa-brands fa-facebook fa-2xl"
+                                    style="margin: 3mm; color: #983737;"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-instagram fa-2xl"
+                                    style="margin: 3mm; color: #983737;"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-whatsapp fa-2xl"
+                                    style="margin: 3mm; color: #983737;"></i></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="row pt-4" style="background-color:#2b2b2b;">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form action="mailto:falzonnicky@gmail.com?subject=Contact from Portfolio" method="post">
+                    <div class="form-group">
+                        <label for="usr" class="bodyFont fs-4" style="color: white;">Name:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1" class="bodyFont fs-4" style="color: white;">Email
+                            address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="comment" class="bodyFont fs-4" style="color: white;">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color:#983737; color: white;">Submit</button>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/all.js"></script>
+</body>
+
+</html>
